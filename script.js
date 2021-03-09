@@ -34,10 +34,10 @@
   
   buttons.forEach(button => {
     button.addEventListener("click", function() {
-      if ( button.classList.contains("prevbtn") && (counter >= 1) ) {
+      if ( this.classList.contains("prevbtn") && (counter >= 1) ) {
         counter--;
         count();
-      } else if ( button.classList.contains("nextbtn") && (counter < testimonials.length - 1) ) {
+      } else if ( this.classList.contains("nextbtn") && (counter < testimonials.length - 1) ) {
         counter++;
         count();
       }
