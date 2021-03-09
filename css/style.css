@@ -86,6 +86,7 @@ h1 {
     border: 0.3125rem solid #1b2a49;
     background-color: #1b2a49;
     color: #c9d1d3;
+    transition: all 200ms ease-in-out;
 }
 
 .btn:hover {
